@@ -3,7 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
+/*body section*/
 body {
 	display: flex;
 	justify-content: center;
@@ -27,7 +27,7 @@ body {
 				0 15px 15px rgba(0,0,0,0.3),
 				inset 0 15px 15px rgba(0,0,0,0.05);
 }
-
+/*clock effect*/
 .clock:before {
 	content: '';
 	position: absolute;
@@ -43,17 +43,18 @@ body {
 .clock .sec {
 	position: absolute;
 }
-
+/*clock hour setting*/
 .clock .hour, .hr {
 	width: 160px;
 	height: 160px;
 }
+/*clock minutes setting*/
 
 .clock .min, .mn {
 	width: 190px;
 	height: 190px;
 }
-
+/*clock seconds setting*/
 .clock .sec, .sc {
 	width: 230px;
 	height: 230px;
@@ -96,7 +97,7 @@ body {
 	z-index: 12;
 	border-radius: 6px 6px 0 0;
 }
-
+/*media query for mobile*/
 @media (max-width: 600px) {
 	.clock {
 		width: 250px;
